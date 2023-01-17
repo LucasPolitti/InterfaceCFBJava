@@ -65,7 +65,7 @@ abstract class Animal implements InterfaceSerVivo {
             }
         }else{
             System.out.println("---------------------");
-            System.out.println(this.getClass().toGenericString() + "está morto, não pode ataca");
+            System.out.println(this.getClass().toGenericString() + "está morto, não pode atacar");
             System.out.println("---------------------");
         
         }
